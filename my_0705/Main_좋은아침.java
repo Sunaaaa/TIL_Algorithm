@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class 좋은아침 {
+public class Main_좋은아침 {
 
     static int[] arr;
     static int[] result;
