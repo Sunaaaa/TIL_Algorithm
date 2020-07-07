@@ -80,7 +80,6 @@ public class Main_7569 {
             }
             System.out.println(ck==0?cnt-1:-1);
         }
-
     }
     static int[] dz = {1,-1};
     static int[] dr = {-1,0,1,0};
