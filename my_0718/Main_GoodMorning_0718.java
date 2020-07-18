@@ -5,6 +5,7 @@ public class Main_GoodMorning_0718 {
     static int N,R,v;
     static int[] arr, result;
     static boolean[] visited;
+    static int cnt;
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -19,17 +20,19 @@ public class Main_GoodMorning_0718 {
         result = new int[R];
         visited = new boolean[N];
 
-        // perm(0);
+        perm(0);
         // permDup(0);
         // comb(0,0);
         // combDup(0,0);
-        subset(0);
+        // subset(0);
+        System.out.println(cnt);
 
     }
 
     static public void perm(int idx){
         if (idx == R) {
-            System.out.println(Arrays.toString(result));
+            // System.out.println(Arrays.toString(result));
+            cnt +=1 ;
             return;
         }
         for (int i = 0; i < arr.length; i++) {
