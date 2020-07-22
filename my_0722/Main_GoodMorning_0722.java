@@ -85,11 +85,12 @@ public class Main_GoodMorning_0722 {
                 }
             }
             System.out.println();
-            return;
         }
         visited[idx] = true;
         subset(idx+1);
         visited[idx] = false;
         subset(idx+1);
     }
+
+
 }
