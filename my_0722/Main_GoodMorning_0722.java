@@ -96,3 +96,4 @@ public class Main_GoodMorning_0722 {
 }
 
 // git branch 연습
+// master > daily > 날짜/daily
