@@ -1,3 +1,5 @@
+package my_0705;
+
 import java.util.Scanner;
 
 public class Main_1010 {
